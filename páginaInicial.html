@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styleP2.css">
+    
+</head>
+
+<body>
+    <div id="testeNavBar"></div>
+    <div class="wrapper">
+        <div id="parteCinza"></div>
+        <div id="parteBranca">
+            <p class="categoria">CADASTRAR</p>
+            <br>
+            <div>
+                <form id="containerInputs">
+                    <br><br>
+                    <p class="tituleInput">Código produto</p>
+                    <input type="text" class="camposInputs" placeholder=" Ex: a01" id="codigoProduto" required>
+                    <br><br>
+                    <p class="tituleInput">Nome do produto:</p>
+                    <input type="text" class="camposInputs" data-index="new" placeholder=" Ex: Arroz" id="nomeProduto" required>
+                    <br>
+                    <br>
+                    <p class="tituleInput">Tipo de medida:</p>
+
+                    <select class="camposInputs" id="unidadeMedida" required>
+                        <option>Metro</option>
+                        <option>Quilograma</option>
+                        <option>Litros</option>
+                        <option>Unidade</option>
+                    </select>
+                    <br><br>
+                    <p class="tituleInput">Descrição:</p>
+                    <input type="text" class="camposInputs" placeholder=" Produto feito pela empresa X, com uma boa qualidade"
+                    id="descricao" required>
+                    <br><br>
+                    <p class="tituleInput">Categoria do produto:</p>
+                    <select id="categoriaProduto" class="camposInputs" required>
+                        <option>Alimento</option>
+                        <option>Bebida</option>
+                        <option>Higiene</option>
+                        <option>Diversos</option>
+                    </select>
+                    <br><br>
+                    <p class="tituleInput">Quantidade: </p>
+                    <input type="number" id="qtdProduto" class="camposInputs" placeholder=" Ex: 2" required>
+                    <br><br>
+                    <p class="tituleInput">Número do corredor:</p>
+                    <input type="number" placeholder=" Ex: 5" id="numCorredor" class="camposInputs" required>
+                    <br><br>
+                    <p class="tituleInput">Número da prateleira:</p>
+                    <input type="number" placeholder=" Ex: 5" id="numPrateleira"  class="camposInputs"required>
+                    <br><br>
+                    <p class="tituleInput">Foto da localização:</p>
+                    <input type="text" id="fotoLocalizacao" class="camposInputs" required>
+                    <br><br>
+                    <p class="tituleInput">Foto do produto:</p>
+                    <input type="text" id="fotoProduto" class="camposInputs" required>
+                    <br><br>
+                    <p class="tituleInput">Preço:</p>
+                    <input type="number" placeholder=" 25,54" id="precoProduto" class="camposInputs" required>
+                    <br><br>
+                    <input id="salvar" class="botao" type="button" value="CADASTRAR" >
+                    <br><br>
+                </form>
+                <br><br>
+            </div>
+        </div>
+        <div id="parteCinza"></div>
+    </div>
+    <script type="text/javascript" src="js.js" defer></script>
+</body>
+</html>

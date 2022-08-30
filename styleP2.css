@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barraNavegacao {
+    background-color: #D41A22;
+    height: 80px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+li:hover {
+    color: #dddddd;
+    text-transform: uppercase;
+}
+
+.precoTotal{
+    color:#FFFFFF;
+    font-size: 16px;
+    margin-left: 80%;
+    margin-top: -1.5%;
+}
+
+ul {
+    display: inline-block;
+    margin-top: 1.7%;
+    margin-left: 33%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+#parteCinza {
+    background-color: #dfdbdb;
+}
+
+#parteBranca {
+    box-shadow: 0px 2px 2px #b4b2b2;
+}
+
+.categoria {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 3%;
+    color:#D41A22
+}
+
+#teste{
+    position: absolute;
+    font-size: 35px;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: #FFFFFF;
+    font-family: initial;
+}
+
+.camposInputs{
+    height: 50px;
+    width: 80%;
+    background-color: #dfdbdb;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.camposInputs, .tituleInput{
+    margin-left: 10%;
+}
+
+.tituleInput {
+    background-color: #fff;
+    color: #D41A22;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#containerInputs{
+    background-color: #fff;
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid #dfdbdb;
+}
+
+.botao{
+    height: 45px;
+    width: 50%;
+    background-color: #D41A22;
+    margin-left: 25%;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.botao:hover {
+    height: 45px;
+    width: 50%;
+    background-color: #5e0005;
+    margin-left: 25%;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#editLogoMercado{
+    position: absolute;
+    width: 5%;
+    height: 8%;
+    margin-top: -2.5%;
+    margin-left: 3%;
+}
+
+#editNomeMercado{
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 8.9%;
+    position: absolute;
+    color: #fff;
+    font-family:cursive;
+    font-size: 30px;
+}

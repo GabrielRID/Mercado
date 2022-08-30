@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tblDados{
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 8%;
+    margin-top: 6%;
+    font-size: 14px;
+    justify-content: center; 
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color:#dfdbdb;
+}
+
+td{
+    text-align: center;
+    height: 60px;
+    width: 80px;
+}
+
+th{
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+}
+
+.botaoVisualizar{
+    height: 45px;
+    width: 80%;
+    background-color: #D41A22;
+    margin-left: 0%;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.precoTotal{
+    color:#FFFFFF;
+    font-size: 16px;
+    margin-left: 80%;
+    margin-top: -1.5%;
+}
+
+#botaoVisu{
+    width: 20%;
+}
+
+#parteCinza {
+    background-color: #dfdbdb;
+}
+
+.botaoVisualizar:hover {
+    background-color: #5e0005;
+    cursor: pointer;
+}
+
+.barraNavegacao {
+    background-color: #D41A22;
+    height: 80px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+li:hover {
+    color: #dddddd;
+    text-transform: uppercase;
+}
+
+ul {
+    display: inline-block;
+    margin-top: 1.7%;
+    margin-left: 33%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.containerProdutos{
+    position: absolute;
+    height: 700px;
+    background-color:#dddddd;
+    width: 1400px;
+    margin-top: -8%;
+    margin-left: -75%;
+    display: none;
+    background-color: #dfdbdb;
+}
+
+.containerProdutos1{
+    position: absolute;
+    height: 700px;
+    background-color:#dddddd;
+    width: 1400px;
+    margin-top: -8%;
+    margin-left: -75%;
+    display: none;
+    background-color: #dfdbdb;
+}
+
+.armazenarInformacoes{      
+    justify-content: center; 
+}
+
+.inputsModalEsquerdo{
+    margin-top: 8px;
+    height: 35px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.inputsModalDireito{
+    margin-top: 8px;
+    height: 35px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.tituloInputs{
+    margin-left: 58%;
+    margin-top: 0;
+}
+
+.imagem1{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 7%;
+    width: 30%;
+    height: 80%;
+    display: block;
+}
+
+#imagem1{
+    position: absolute;
+    margin-top: -0%;
+    margin-left: 7%;
+    width: 30%;
+    height: 80%;
+    display: block;
+}
+
+#imagem2{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 7%;
+    width: 30%;
+    height: 80%;
+    display: block;
+}
+
+#ladoEsquerdo{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+#ladoEsquerdo1{
+    margin-left: 45%;
+    margin-top: 10%
+}
+
+#voltarParaOLado{
+    position: absolute;
+    background-color: #D41A22;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 21%;
+    color: #fff;
+    justify-content: center;
+    margin-left: 7.5%;
+    z-index: 0;
+}
+
+.tituloInputsEsquerdo{
+    margin-left: 0%;
+}
+
+#ladoDireito{
+    margin-left: 72%;
+    margin-top: -27.8%;
+}
+
+#ladoDireito1{
+    margin-left: 72%;
+    margin-top: -33.5%;
+}
+
+.tituloInputsEsquerdo, .tituloInputsDireito{
+    color:#D41A22;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botoes{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.botaoEditar, .botaoDeletar{
+    width: 70px;
+    height: 30px;
+    background-color: #D41A22;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+#confirmar{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: #D41A22;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-left: 69%;
+    margin-top: 46%;
+}
+
+#cancelar{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: #D41A22;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-left: 59%;
+    margin-top: 46%;
+}
+
+.botaoDeletar:hover, .botaoEditar:hover, #xis:hover, #irParaOLado:hover, #voltarParaOLado:hover, #confirmar:hover, #cancelar:hover {
+    background-color: #5e0005;
+    cursor: pointer;
+}
+
+#xis{
+    position: absolute;
+    background-color: #D41A22;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 1%;
+    color: #fff;
+    justify-content: center;
+    margin-left: 95%;
+}
+
+#xizinho{
+    margin-top: 17%;
+}
+
+#irParaOLado{
+    position: absolute;
+    background-color: #D41A22;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 21%;
+    color: #fff;
+    justify-content: center;
+    margin-left: 33%;
+    z-index: 0;
+}
+
+#setinha{
+    font-size: 45px;
+}
+
+#editLogoMercado{
+    position: absolute;
+    width: 5%;
+    height: 8%;
+    margin-top: -2.5%;
+    margin-left: 3%;
+}
+
+#editNomeMercado{
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 8.9%;
+    position: absolute;
+    color: #fff;
+    font-family:cursive;
+    font-size: 30px;
+}

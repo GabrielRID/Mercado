@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    background-color: #D41A22;
+}
+
+#containerInputs {
+    background-color: #fff;
+    height: 35%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 8%;
+    border-radius: 10px;
+    border: 1px solid #D41A22;
+}
+
+#tituleRegiterInitial {
+    margin-top: 10%;
+    margin-left: 30%;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #D41A22;
+}
+
+#tituleInput {
+    background-color: #fff;
+    color: #D41A22;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#nomeMercado,
+#logoMercado {
+    height: 50px;
+    width: 98%;
+    background-color: #dfdbdb;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.botao {
+    height: 45px;
+    width: 50%;
+    background-color: #D41A22;
+    margin-left: 25%;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.botao:hover {
+    height: 45px;
+    width: 50%;
+    background-color: #5e0005;
+    margin-left: 25%;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+a {
+    background-color: #fff;
+}
